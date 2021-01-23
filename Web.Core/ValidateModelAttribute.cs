@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+
+namespace Web.Core
+{
+    public class ValidateModelAttribute : ActionFilterAttribute
+    {
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            if (!context.ModelState.IsValid)
+            {
+                context.Result = new BadRequestObjectResult(context.ModelState);
+            }
+        }
+    }
+}

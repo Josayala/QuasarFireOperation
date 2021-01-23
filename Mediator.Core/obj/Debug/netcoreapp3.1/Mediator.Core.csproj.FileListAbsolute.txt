@@ -1,0 +1,5 @@
+C:\ML\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp3.1\Mediator.Core.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp3.1\Mediator.Core.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp3.1\Mediator.Core.AssemblyInfo.cs
+C:\ML\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp3.1\MediatR.dll

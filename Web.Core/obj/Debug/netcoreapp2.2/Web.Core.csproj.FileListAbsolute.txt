@@ -1,0 +1,15 @@
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.AssemblyInfo.cs
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.csproj.CoreCompileInputs.cache
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Web.Core.deps.json
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Web.Core.runtimeconfig.json
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Web.Core.runtimeconfig.dev.json
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Web.Core.dll
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Web.Core.pdb
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Core.dll
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp2.2\Core.pdb
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.csproj.CopyComplete
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.dll
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.pdb
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp2.2\Web.Core.genruntimeconfig.cache

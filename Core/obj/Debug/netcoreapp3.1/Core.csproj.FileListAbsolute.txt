@@ -1,0 +1,4 @@
+C:\ML\QuasarFireOperation\Core\bin\Debug\netcoreapp3.1\Core.exe
+C:\ML\QuasarFireOperation\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs

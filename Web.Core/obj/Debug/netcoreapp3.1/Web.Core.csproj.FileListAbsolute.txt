@@ -1,0 +1,4 @@
+C:\ML\QuasarFireOperation\Web.Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp3.1\Web.Core.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp3.1\Web.Core.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\Web.Core\obj\Debug\netcoreapp3.1\Web.Core.AssemblyInfo.cs

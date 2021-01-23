@@ -1,0 +1,9 @@
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\Core.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\Mediator.Core.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\QuasarFireOperation.Domain.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\obj\Debug\netcoreapp3.1\QuasarFireOperation.Infrastructure.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\obj\Debug\netcoreapp3.1\QuasarFireOperation.Infrastructure.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\obj\Debug\netcoreapp3.1\QuasarFireOperation.Infrastructure.AssemblyInfo.cs
+C:\ML\QuasarFireOperation\QuasarFireOperation.Infrastructure\bin\Debug\netcoreapp3.1\AutoMapper.dll

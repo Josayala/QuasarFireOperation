@@ -1,0 +1,17 @@
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.AssemblyInfoInputs.cache
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.AssemblyInfo.cs
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\QuasarFireOperation.Domain.deps.json
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\QuasarFireOperation.Domain.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\QuasarFireOperation.Domain.pdb
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\Core.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\Mediator.Core.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\Core.pdb
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\Mediator.Core.pdb
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.csprojAssemblyReference.cache
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.csproj.CopyComplete
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.dll
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.pdb
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\QuasarFireOperation.Domain.runtimeconfig.json
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\bin\Debug\netcoreapp2.2\QuasarFireOperation.Domain.runtimeconfig.dev.json
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.csproj.CoreCompileInputs.cache
+C:\ML\QuasarFireOperation\QuasarFireOperation.Domain\obj\Debug\netcoreapp2.2\QuasarFireOperation.Domain.genruntimeconfig.cache

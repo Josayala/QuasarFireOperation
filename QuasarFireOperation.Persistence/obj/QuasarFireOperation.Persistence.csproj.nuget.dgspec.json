@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
+        "outputPath": "C:\\ML\\QuasarFireOperation\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.ccmsi.com:8081/artifactory/api/nuget/nuget": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
+        "projectName": "Mediator.Core",
+        "projectPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
+        "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
+        "outputPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.ccmsi.com:8081/artifactory/api/nuget/nuget": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
+        "projectName": "QuasarFireOperation.Domain",
+        "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
+        "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
+        "outputPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.ccmsi.com:8081/artifactory/api/nuget/nuget": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj"
+              },
+              "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\QuasarFireOperation.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\QuasarFireOperation.Infrastructure.csproj",
+        "projectName": "QuasarFireOperation.Infrastructure",
+        "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\QuasarFireOperation.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
+        "outputPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.ccmsi.com:8081/artifactory/api/nuget/nuget": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj",
+        "projectName": "QuasarFireOperation.Persistence",
+        "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj",
+        "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
+        "outputPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.ccmsi.com:8081/artifactory/api/nuget/nuget": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj"
+              },
+              "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\QuasarFireOperation.Infrastructure.csproj": {
+                "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Infrastructure\\QuasarFireOperation.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
