@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsdSIIM5Tv6vpK0AH1aVhawSX+aANwZ1gqJQzk8yIG+02ipV86/qlJytf7kNkxkR1TwhKMCpNXW5CCehEGQQeA==",
+  "dgSpecHash": "oGedRZHmm6T3osQT4HN+n8OJUtKW0Xp00IZIwsyDr5hqmyEolKXuxFK6k3Vgf8NFmU83nGC47cdshT7bwGerGA==",
   "success": true,
-  "projectFilePath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj",
+  "projectFilePath": "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Persistence\\QuasarFireOperation.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayala\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\jayala\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512",

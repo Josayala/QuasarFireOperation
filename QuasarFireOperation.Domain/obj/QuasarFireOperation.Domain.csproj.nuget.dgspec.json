@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {}
+    "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {}
   },
   "projects": {
-    "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
+    "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+        "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
-        "outputPath": "C:\\ML\\QuasarFireOperation\\Core\\obj\\",
+        "outputPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
+    "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
+        "projectUniqueName": "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
         "projectName": "Mediator.Core",
-        "projectPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
+        "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj",
         "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
-        "outputPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\obj\\",
+        "outputPath": "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
-                "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj"
+              "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj": {
+                "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {
+    "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
+        "projectUniqueName": "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
         "projectName": "QuasarFireOperation.Domain",
-        "projectPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
+        "projectPath": "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
         "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
-        "outputPath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\obj\\",
+        "outputPath": "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -157,11 +157,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj": {
-                "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj"
+              "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj": {
+                "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj"
               },
-              "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
-                "projectPath": "C:\\ML\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj"
+              "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj": {
+                "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Mediator.Core\\Mediator.Core.csproj"
               }
             }
           }

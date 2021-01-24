@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4qW8JEqZ0G3KfnJ8hCr7H3inL35egOqTaXfhXhnvtvcS+ckbpayAYt1vSdFUSpsQmYKGJGQ4IKDuYXEfloQrRA==",
+  "dgSpecHash": "KLLHYg8cAWvyfYYEuHy/c220eVxC6ryhHzoEl338cLrv4VqgxDCNLxJBcbnmrJZfr37UMlllwcOJmzeOdywdIA==",
   "success": true,
-  "projectFilePath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+  "projectFilePath": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

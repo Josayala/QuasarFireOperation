@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oD6KnEK0Tc5GBibQGaiEckErvB8183cUZpkOihnCujt2x3fZH4ZT9E8FLAFdKa9eiSOHJRPpUO7B6/LQqw480g==",
+  "dgSpecHash": "Xm62lvZ9juthVF3KW9/sNNN3S/BBMWZjN4X/17VTCCZGs9v8ZJpwS3y55Ix1H15DzPHWftGNpsFsvKFQtXKZ3Q==",
   "success": true,
-  "projectFilePath": "C:\\ML\\QuasarFireOperation\\Web.Core\\Web.Core.csproj",
+  "projectFilePath": "C:\\GitProjects\\QuasarFireOperation\\Web.Core\\Web.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

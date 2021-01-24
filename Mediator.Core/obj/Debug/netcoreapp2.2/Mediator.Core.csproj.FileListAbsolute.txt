@@ -10,3 +10,15 @@ C:\ML\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Core.pdb
 C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.csproj.CopyComplete
 C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.dll
 C:\ML\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.pdb
+C:\GitProjects\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Mediator.Core.deps.json
+C:\GitProjects\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Mediator.Core.dll
+C:\GitProjects\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Mediator.Core.pdb
+C:\GitProjects\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Core.dll
+C:\GitProjects\QuasarFireOperation\Mediator.Core\bin\Debug\netcoreapp2.2\Core.pdb
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.csprojAssemblyReference.cache
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.AssemblyInfoInputs.cache
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.AssemblyInfo.cs
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.csproj.CoreCompileInputs.cache
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.csproj.CopyComplete
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.dll
+C:\GitProjects\QuasarFireOperation\Mediator.Core\obj\Debug\netcoreapp2.2\Mediator.Core.pdb

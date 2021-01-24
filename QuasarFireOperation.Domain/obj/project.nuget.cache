@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PFcbMXkNAqmkRRhjy0KVgwKzMm78VPaSz+TFxrPthwFSFQH6X0Ve6jv5uJfU/qZnAVCxJmHQKZ3KbnPdxLpQg==",
+  "dgSpecHash": "Esu3AUAkNnZseyedUWeStX87cpFGY4kSE1pMIxLR3A46yVIKpQ+I2iBHKRRQi4c0DUiDFt7NY6MFxTyQD/vybQ==",
   "success": true,
-  "projectFilePath": "C:\\ML\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
+  "projectFilePath": "C:\\GitProjects\\QuasarFireOperation\\QuasarFireOperation.Domain\\QuasarFireOperation.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayala\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

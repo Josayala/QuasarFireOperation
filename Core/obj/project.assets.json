@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\ML\\QuasarFireOperation\\Core\\Core.csproj",
+      "projectPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\jayala\\.nuget\\packages\\",
-      "outputPath": "C:\\ML\\QuasarFireOperation\\Core\\obj\\",
+      "outputPath": "C:\\GitProjects\\QuasarFireOperation\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -7,3 +7,12 @@ C:\ML\QuasarFireOperation\Core\bin\Debug\netcoreapp2.2\Core.dll
 C:\ML\QuasarFireOperation\Core\bin\Debug\netcoreapp2.2\Core.pdb
 C:\ML\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.dll
 C:\ML\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.pdb
+C:\GitProjects\QuasarFireOperation\Core\bin\Debug\netcoreapp2.2\Core.deps.json
+C:\GitProjects\QuasarFireOperation\Core\bin\Debug\netcoreapp2.2\Core.dll
+C:\GitProjects\QuasarFireOperation\Core\bin\Debug\netcoreapp2.2\Core.pdb
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.dll
+C:\GitProjects\QuasarFireOperation\Core\obj\Debug\netcoreapp2.2\Core.pdb
