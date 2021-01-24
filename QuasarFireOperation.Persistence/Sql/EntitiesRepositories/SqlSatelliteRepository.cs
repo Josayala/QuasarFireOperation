@@ -70,65 +70,82 @@ namespace QuasarFireOperation.Persistence.Sql.EntitiesRepositories
 
         public string GetMessage(List<AddSatelliteObject> satelliteList)
         {
+            var isCompletedMessage = false;
             var messageIssued = new StringBuilder("");
-            var length = 0;
-            if (satelliteList != null) length = satelliteList.FirstOrDefault().Message.Count;
+            var lengthMessage = 0;
 
-            var outPutMessage = new string[length];
+            if (satelliteList != null) lengthMessage = GetLengthMessage(satelliteList);
+
+
+            var outPutMessage = new string[lengthMessage];
 
             var occupiedPositionList = new List<int>();
+
+
             foreach (var satellite in satelliteList)
             {
-                if (occupiedPositionList.Count == satellite.Message.Count) break;
-
-
-                if (HasAllMessages(satellite.Message))
-                {
-                    foreach (var completedWord in satellite.Message)
+      
+                    if (HasAllMessages(satellite.Message, lengthMessage))
                     {
-                        messageIssued.Append(completedWord);
-                        messageIssued.Append(" ");
+                        for (var k = lengthMessage; k >= 0; k--)
+                            outPutMessage[k] = satellite.Message.ElementAt(k);
+                        isCompletedMessage = true;
                     }
 
-                    break;
-                }
-
-                var i = 0;
-
-                while (i < satellite.Message.Count && occupiedPositionList.Count != satellite.Message.Count)
-                {
-                    var completedWord = satellite.Message.ElementAt(i);
-
-                    if (!string.IsNullOrEmpty(completedWord) && !occupiedPositionList.Contains(i))
+                    var i = satellite.Message.Count - 1;
+                    var positionWord = lengthMessage - 1;
+                    while (i >= 0 && positionWord >= 0 && occupiedPositionList.Count != lengthMessage)
                     {
-                        occupiedPositionList.Add(i);
-                        outPutMessage[i] = completedWord;
+                        var completedWord = satellite.Message.ElementAt(i);
+
+                        if (!string.IsNullOrEmpty(completedWord) && !occupiedPositionList.Contains(positionWord))
+                        {
+                            occupiedPositionList.Add(positionWord);
+                            outPutMessage[positionWord] = completedWord;
+                        }
+
+                        positionWord--;
+                        i--;
                     }
 
-                    i++;
-                }
+                    if (occupiedPositionList.Count == lengthMessage) isCompletedMessage = true;
+
+                    if (isCompletedMessage) break;
+    
             }
 
-            for (var i = 0; i < outPutMessage.Length; i++)
-            {
-                messageIssued.Append(outPutMessage[i]);
-                messageIssued.Append(" ");
-            }
+            if (isCompletedMessage)
+                for (var i = 0; i < outPutMessage.Length; i++)
+                {
+                    messageIssued.Append(outPutMessage[i]);
+                    messageIssued.Append(" ");
+                }
 
             return messageIssued.ToString();
         }
 
-        public bool HasAllMessages(List<string> messageList)
+        private bool HasAllMessages(List<string> messageList, int lengthMessage)
         {
             var hasMessage = true;
-            foreach (var completedWord in messageList)
+
+            for (var i = messageList.Count - 1; i >= 0; i--)
             {
-                if (string.IsNullOrEmpty(completedWord)) hasMessage = false;
+                if (string.IsNullOrEmpty(messageList.ElementAt(i)) && i <= lengthMessage) hasMessage = false;
 
                 if (!hasMessage) break;
             }
 
             return hasMessage;
+        }
+
+
+        private int GetLengthMessage(List<AddSatelliteObject> satelliteList)
+        {
+            var minLength = 10000000;
+            foreach (var satellite in satelliteList)
+                if (minLength > satellite.Message.Count)
+                    minLength = satellite.Message.Count;
+            return minLength;
         }
     }
 }

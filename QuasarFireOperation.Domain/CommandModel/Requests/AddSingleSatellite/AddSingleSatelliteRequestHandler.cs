@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Core.Responses;
 using MediatR;
 using Microsoft.Extensions.Caching.Memory;
-using QuasarFireOperation.Domain.CommandModel.Entities;
 using QuasarFireOperation.Domain.CommandModel.Mappers;
 using QuasarFireOperation.Domain.CommandModel.Repositories;
 using QuasarFireOperation.Domain.CommandModel.Requests.AddSatelites;
@@ -13,7 +12,8 @@ using QuasarFireOperation.Domain.QueryModel.Dtos;
 namespace QuasarFireOperation.Domain.CommandModel.Requests.AddSingleSatellite
 {
     public class
-        AddSingleSatelliteRequestHandler : IRequestHandler<AddSingleSatelliteRequest, EntityResponse<SatelliteMessageDto>>
+        AddSingleSatelliteRequestHandler : IRequestHandler<AddSingleSatelliteRequest,
+            EntityResponse<SatelliteMessageDto>>
     {
         public AddSingleSatelliteRequestHandler(IUnitOfWork unitOfWork, ISatelliteMapper sateliteMapper)
         {
@@ -54,7 +54,8 @@ namespace QuasarFireOperation.Domain.CommandModel.Requests.AddSingleSatellite
             else
                 completionStatus.AddValidationMessage("The names of the satellites are required ");
 
-            var response = new EntityResponse<SatelliteMessageDto> {Entity = satelliteMessage, Status = completionStatus};
+            var response = new EntityResponse<SatelliteMessageDto>
+                {Entity = satelliteMessage, Status = completionStatus};
 
             return response;
         }
