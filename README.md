@@ -1,4 +1,4 @@
-## Table of Contents
+## Tabla de Contenido
 1. [Planteo del Problema ](#problema)
 2. [Solucion del Problema ](#solucion)
 3. [Solucion Tecnica](#solucion-tecnica)
