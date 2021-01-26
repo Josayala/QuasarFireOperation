@@ -10,6 +10,7 @@ Este es un Challenge denominado OPERACION FUEGO DE QUASAR, basado en una situaci
 La nave emisora emitirá un mensaje hacia los tres satélites, y la información que cada satélite recibirá será la siguiente: la distancia lineal desde la nave emisora al satélite, y el mensaje, el cual puede no encontrarse completo ya que debido a interferencia (ocasionada por asteroides) algunas palabras pueden no recibirse e incluso puede recibirse el mensaje en algun satelite con delay.
 
 ### Solucion del Problema
+***
 *  **Obtencion de la Localizacion**
 Para poder obtener la ubicación de la nave de carga, QuasarFireOperation implementa un algoritmo de localización basado en la técnica de Trilateración, la cual consiste en definir las funciones de tres círculos cuyo centro corresponde a la posición de cada uno de los satélites y cuyo radio corresponde a la distacia de la emision del mensaje, esto con la finalidad de encontrar los puntos (x, y) en los cuales los tres círculos se intersectan.
 *  **Obtencion del Mensaje**
@@ -18,6 +19,7 @@ Antes empezar a recorrer esta lista debemos determinar la longitud del mensaje p
 Una vez que se determina la longitud del mensaje se comienza a iterar la lista desde la última posicion hacia adelante, analizando los valores de cada posicion, y guardando en una lista de posiciones ocupadas aquellas palabras que sean distintas de vacío. Luego cuando la lista de posiciones ocupadas tenga la misma longitud que el array de string de menor tamaño podemos decir entonces que el mensaje emitido fue desifrado. 
 
 ### Solucion Tecnica
+***
 Tecnicamente debemos diseñar endpoints API REST a través de HTTP POST el cual recibe objetos en formato JSON y tambien HTTP GET para procesar la información recibida y en los casos que sea posible poder determinar la ubicación y el contenido del mensaje enviado por la nave emisora.
 
 Esta API presenta un servicio /topsecret/ que recibe mensajes de tipo POST con el siguiente formato JSON:
@@ -135,6 +137,7 @@ En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser com
 
 
 ### Ejecucion Localmente
+***
 1. Clonar el Repositorio
 ```javascript
 Clone the project using HTPPS
@@ -144,6 +147,7 @@ Clone the project using HTPPS
 3. Abrir la solucion del proyecto y correrlo localmente.
 
 ### Url Repositorio en Google Cloud
+***
 La API se encuentra disponible en estos momentos en la nube para ser utilizada desde la siguiente url: 
 https://deployapiapplication.appspot.com/swagger/index.html
 
