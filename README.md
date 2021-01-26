@@ -163,8 +163,8 @@ En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser com
 Clone the project using HTPPS
  git clone https://github.com/Josayala/QuasarFireOperation.git
 ```
-2. Abrir Visual Studio 
-3. Abrir la solucion del proyecto y correrlo localmente.
+2. Abrir Visual Studio e ir a la opcion Open Project/Solution
+3. Abrir la carpeta donde se encuentra solucion del proyecto(archivo .sln) y correrlo localmente.
 
 ### Url Repositorio en Google Cloud
 ***
