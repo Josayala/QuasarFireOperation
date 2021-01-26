@@ -23,7 +23,6 @@ Una vez que se determina la longitud del mensaje se comienza a iterar la lista d
 Tecnicamente debemos diseñar endpoints API REST a través de HTTP POST el cual recibe objetos en formato JSON y tambien HTTP GET para procesar la información recibida y en los casos que sea posible poder determinar la ubicación y el contenido del mensaje enviado por la nave emisora.
 
 Esta API presenta un servicio /topsecret/ que recibe mensajes de tipo POST con el siguiente formato JSON:
-** API **
 
 - POST → /topsecret/
 https://deployapiapplication.appspot.com/topsecret/
