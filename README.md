@@ -6,7 +6,7 @@
 
 ### Planteo del Problema
 ***
-Este es un Challenge denominado OPERACION FUEGO DE QUASAR, basado en una situación en la cual los Rebeldes deben interceptar un mensaje triangulando la posición mediante tres satélites en un plano bidimensional donde conocemos las coordenadas de 3 satélites. También tenemos una nave emisora de un mensaje cuyas coordenadas son desconocidas posicion a determinar. 
+Este es un Challenge denominado OPERACION FUEGO DE QUASAR, basado en una situación en la cual los Rebeldes deben interceptar un mensaje triangulando la posición mediante tres satélites en un plano bidimensional donde conocemos las coordenadas de 3 satélites. También tenemos una nave emisora de un mensaje cuyas coordenadas son desconocidas (posicion a determinar). 
 La nave emisora emitirá un mensaje hacia los tres satélites, y la información que cada satélite recibirá será la siguiente: la distancia lineal desde la nave emisora al satélite, y el mensaje, el cual puede no encontrarse completo ya que debido a interferencia (ocasionada por asteroides) algunas palabras pueden no recibirse e incluso puede recibirse el mensaje en algun satelite con delay.
 
 ### Solucion del Problema
