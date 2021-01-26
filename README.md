@@ -2,7 +2,7 @@
 1. [Planteo del Problema ](#problema)
 2. [Solucion del Problema ](#solucion)
 3. [Solucion Tecnica](#solucion-tecnica)
-4. [Ejecucion Localmente](#ejecutar-localmente)
+4. [Ejecutar Localmente](#ejecutar-localmente)
 
 ### Planteo del Problema
 ***
@@ -155,7 +155,7 @@ https://deployapiapplication.appspot.com/topsecret_split/sato
 En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser completado, el resultado será un código de respuesta 404 al igual que cuando se ejecuta el servicio /topsecret/.
 
 
-### Ejecucion Localmente
+### Ejecutar Localmente
 ***
 1. Clonar el Repositorio
 ```javascript
