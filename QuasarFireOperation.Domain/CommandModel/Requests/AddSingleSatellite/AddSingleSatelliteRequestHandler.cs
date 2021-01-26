@@ -54,7 +54,10 @@ namespace QuasarFireOperation.Domain.CommandModel.Requests.AddSingleSatellite
             else
                 completionStatus.AddValidationMessage("The names of the satellites are required ");
 
-            var response = new EntityResponse<SatelliteMessageDto>
+            if (!string.IsNullOrEmpty(satelliteMessage.Message) && satelliteMessage.Position!=null)
+                    cacheList.Clear();
+
+          var response = new EntityResponse<SatelliteMessageDto>
                 {Entity = satelliteMessage, Status = completionStatus};
 
             return response;

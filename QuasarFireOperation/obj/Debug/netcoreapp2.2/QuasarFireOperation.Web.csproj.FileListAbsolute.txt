@@ -60,3 +60,4 @@ C:\GitProjects\QuasarFireOperation\QuasarFireOperation\obj\Debug\netcoreapp2.2\Q
 C:\GitProjects\QuasarFireOperation\QuasarFireOperation\obj\Debug\netcoreapp2.2\QuasarFireOperation.Web.dll
 C:\GitProjects\QuasarFireOperation\QuasarFireOperation\obj\Debug\netcoreapp2.2\QuasarFireOperation.Web.pdb
 C:\GitProjects\QuasarFireOperation\QuasarFireOperation\obj\Debug\netcoreapp2.2\QuasarFireOperation.Web.genruntimeconfig.cache
+C:\GitProjects\QuasarFireOperation\QuasarFireOperation\bin\Debug\netcoreapp2.2\app.yaml

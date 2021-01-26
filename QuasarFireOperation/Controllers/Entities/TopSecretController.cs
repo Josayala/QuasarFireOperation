@@ -27,7 +27,7 @@ namespace QuasarFireOperation.Web.Controllers.Entities
 
         [HttpPost("topsecret")]
         [ProducesResponseType(typeof(SatelliteMessageDto), (int) HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ResourceNotFoundResult), (int) HttpStatusCode.NotFound)]
+        [ProducesResponseType((int) HttpStatusCode.NotFound)]
         public async Task<IActionResult> Post([FromBody] AddSatelliteRequest addRequest)
         {
             try
@@ -53,7 +53,7 @@ namespace QuasarFireOperation.Web.Controllers.Entities
 
         [HttpPost("topsecret_split/{satelliteName}")]
         [ProducesResponseType(typeof(SatelliteMessageDto), (int) HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ResourceNotFoundResult), (int) HttpStatusCode.NotFound)]
+        [ProducesResponseType((int) HttpStatusCode.NotFound)]
         public async Task<IActionResult> Post([FromBody] AddSingleSatelliteRequest addRequest,
             [FromRoute] string satelliteName)
         {
