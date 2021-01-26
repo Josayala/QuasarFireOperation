@@ -1,7 +1,7 @@
 ## Tabla de Contenido
 1. [Planteo del Problema ](#problema)
-2. [Solucion del Problema ](#solucion)
-3. [Solucion Tecnica](#solucion-tecnica)
+2. [Solución del Problema ](#solucion)
+3. [Solución Técnica](#solucion-tecnica)
 4. [Ejecutar Localmente](#ejecutar-localmente)
 
 ### Planteo del Problema
@@ -9,16 +9,16 @@
 Este es un Challenge denominado OPERACION FUEGO DE QUASAR, basado en una situación en la cual los Rebeldes deben interceptar un mensaje triangulando la posición mediante tres satélites en un plano bidimensional donde conocemos las coordenadas de 3 satélites. También tenemos una nave emisora de un mensaje cuyas coordenadas son desconocidas (posicion a determinar). 
 La nave emisora emitirá un mensaje hacia los tres satélites, y la información que cada satélite recibirá será la siguiente: la distancia lineal desde la nave emisora al satélite, y el mensaje, el cual puede no encontrarse completo ya que debido a interferencia (ocasionada por asteroides) algunas palabras pueden no recibirse e incluso puede recibirse el mensaje en algun satelite con delay.
 
-### Solucion del Problema
+### Solución del Problema
 ***
-*  **Obtencion de la Localizacion**
+*  **Obtención de la Localizacion**
 Para poder obtener la ubicación de la nave de carga, QuasarFireOperation implementa un algoritmo de localización basado en la técnica de Trilateración, la cual consiste en definir las funciones de tres círculos cuyo centro corresponde a la posición de cada uno de los satélites y cuyo radio corresponde a la distacia de la emision del mensaje, esto con la finalidad de encontrar los puntos (x, y) en los cuales los tres círculos se intersectan.
-*  **Obtencion del Mensaje**
+*  **Obtención del Mensaje**
 Para poder calcular el contenido completo del mensaje, a partir de elementos parciales recibidos en cada satélite, se armó una lista que contiene informacion de cada satelite entre ello un array de string con el mensaje emitido.  
 Antes empezar a recorrer la lista debemos determinar la longitud del mensaje, para este fin debemos encontrar el array de string de menor tamaño, de esta manera obtendremos el tamaño del mensaje y los array de string de mayor tamaño son los que podrian contener delay o bien que una palabra que no pueda ser determinada.
 Una vez que se determina la longitud del mensaje se comienza a iterar la lista desde la última posicion hacia adelante, analizando los valores de cada posicion, y guardando en una lista de posiciones ocupadas aquellas palabras que sean distintas de vacío. Luego cuando la lista de posiciones ocupadas tenga la misma longitud que el array de string de menor tamaño podemos decir entonces que el mensaje emitido fue desifrado. 
 
-### Solucion Tecnica
+### Solución Técnica
 ***
 Tecnicamente debemos diseñar endpoints API REST a través de HTTP POST el cual recibe objetos en formato JSON para procesar la información recibida y en los casos que sea posible poder determinar la ubicación y el contenido del mensaje enviado por la nave emisora.
 
