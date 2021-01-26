@@ -82,23 +82,32 @@ En el caso de que no se pudiera calcular las coordenadas de la nave objetivo o n
 ```javascript
 - POST → /topsecret/  (404 RESPONSE)
 {
-  "satellites":[
+  "satelliteList": [
     {
-      "name":"kenobi",
-      "distance":100.0,
-      "message":["este", "", "", "mensaje", ""]
+      "name": "kenobi",
+      "distance":   84,
+      "message": [
+        "este","","","mensaje",""
+      ]
     },
     {
-      "name":"skywalker",
-      "distance":115.5,
-      "message":["", "es", "", "", "secreto"]
+      "name": "skywalker",
+      "distance":   114,
+      "message": [
+        "","es","","",""
+      ]
     },
+
     {
-      "name":"sato",
-      "distance":142.7,
-      "message":["este", "", "un", "", ""]
-    }
-]
+      "name": "sato",
+      "distance":   120,
+      "message": [
+        "este","","un","",""
+      ]
+    },
+
+
+  ]
 }
 ```
 - POST → /topsecret_split/
@@ -113,12 +122,33 @@ https://deployapiapplication.appspot.com/topsecret_split/sato
 
 Además, existe un segundo servicio /topsecret_split/ que acepta POST y GET y recibe información de un satélite a la vez, como se muestra a continuación:
 
-- POST → /topsecret_split/{satellite_name}
+- POST → /topsecret_split/{kenobi}
 ```javascript
 {
-  "distance": 13.0,
-  "message": ["", "", "un", "", ""]
+   "distance":   84,
+      "message": [
+         "","este","es","un","mensaje"
+      ]
 }
+
+- POST → /topsecret_split/{skywalker}
+```javascript
+{
+   "distance":   114,
+      "message": [
+        "este","","un","mensaje"
+      ]
+}
+
+- POST → /topsecret_split/{sato}
+```javascript
+{
+   "distance":   120,
+      "message": [
+         "","","es","","mensaje"
+      ]
+}
+
 ```
 
 - GET → /topsecret_split/ 
