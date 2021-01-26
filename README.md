@@ -164,11 +164,11 @@ Este end-point permite obtener, de ser posible cuando esten cargados los datos d
 ```javascript
 RESPONSE CODE: 200
 {
-"position": {
-"x": -100.0,
-"y": 75.5
-},
-"message": "este es un mensaje secreto"
+  "Position": {
+    "x": -20.548034139288415,
+    "y": -69.26617461833193
+  },
+  "Message": "este es un mensaje "
 }
 ```
 En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser completado, el resultado será un código de respuesta 404 al igual que cuando se ejecuta el servicio /topsecret/  .
