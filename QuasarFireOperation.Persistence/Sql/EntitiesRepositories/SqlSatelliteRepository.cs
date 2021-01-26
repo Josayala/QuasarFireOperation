@@ -71,6 +71,7 @@ namespace QuasarFireOperation.Persistence.Sql.EntitiesRepositories
         public string GetMessage(List<AddSatelliteObject> satelliteList)
         {
             var isCompletedMessage = false;
+            var hasOverlappingWord = false;
             var messageIssued = new StringBuilder("");
             var lengthMessage = 0;
 
@@ -84,34 +85,40 @@ namespace QuasarFireOperation.Persistence.Sql.EntitiesRepositories
 
             foreach (var satellite in satelliteList)
             {
-      
-                    if (HasAllMessages(satellite.Message, lengthMessage))
+                if (HasAllMessages(satellite.Message, lengthMessage))
+                {
+                    for (var k = lengthMessage; k >= 0; k--)
+                        outPutMessage[k] = satellite.Message.ElementAt(k);
+                    isCompletedMessage = true;
+                }
+
+                var i = satellite.Message.Count - 1;
+                var positionWord = lengthMessage - 1;
+                while (i >= 0 && positionWord >= 0 && occupiedPositionList.Count != lengthMessage)
+                {
+                    var completedWord = satellite.Message.ElementAt(i);
+
+                    if (!string.IsNullOrEmpty(completedWord) && !occupiedPositionList.Contains(positionWord))
                     {
-                        for (var k = lengthMessage; k >= 0; k--)
-                            outPutMessage[k] = satellite.Message.ElementAt(k);
-                        isCompletedMessage = true;
+                        occupiedPositionList.Add(positionWord);
+                        outPutMessage[positionWord] = completedWord;
                     }
 
-                    var i = satellite.Message.Count - 1;
-                    var positionWord = lengthMessage - 1;
-                    while (i >= 0 && positionWord >= 0 && occupiedPositionList.Count != lengthMessage)
+                    if (!string.IsNullOrEmpty(completedWord) && outPutMessage[positionWord] != completedWord)
                     {
-                        var completedWord = satellite.Message.ElementAt(i);
-
-                        if (!string.IsNullOrEmpty(completedWord) && !occupiedPositionList.Contains(positionWord))
-                        {
-                            occupiedPositionList.Add(positionWord);
-                            outPutMessage[positionWord] = completedWord;
-                        }
-
+                        hasOverlappingWord = true;
+                        i = -1;
+                    }
+                    else
+                    {
                         positionWord--;
                         i--;
                     }
+                }
 
-                    if (occupiedPositionList.Count == lengthMessage) isCompletedMessage = true;
+                if (occupiedPositionList.Count == lengthMessage) isCompletedMessage = true;
 
-                    if (isCompletedMessage) break;
-    
+                if (isCompletedMessage || hasOverlappingWord) break;
             }
 
             if (isCompletedMessage)
