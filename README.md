@@ -35,9 +35,8 @@ https://deployapiapplication.appspot.com/topsecret/
 
 	Respuesta para cuando la posicion o el mensaje no pueda calcularse: 404 (Not Found)
 
-- POST → /topsecret/ (200 RESPONSE)
-
 ```javascript
+- POST → /topsecret/ (200 RESPONSE)
 {
   "satelliteList": [
     {
