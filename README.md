@@ -15,12 +15,12 @@ La nave emisora emitirá un mensaje hacia los tres satélites, y la información
 Para poder obtener la ubicación de la nave de carga, QuasarFireOperation implementa un algoritmo de localización basado en la técnica de Trilateración, la cual consiste en definir las funciones de tres círculos cuyo centro corresponde a la posición de cada uno de los satélites y cuyo radio corresponde a la distacia de la emision del mensaje, esto con la finalidad de encontrar los puntos (x, y) en los cuales los tres círculos se intersectan.
 *  **Obtencion del Mensaje**
 Para poder calcular el contenido completo del mensaje, a partir de elementos parciales recibidos en cada satélite, se armó una lista que contiene informacion de cada satelite entre ello un array de string con el mensaje emitido.  
-Antes empezar a recorrer esta lista debemos determinar la longitud del mensaje para este fin debemos encontrar el array de string de menor tamaño de esta manera obtendremos el tamaño del mensaje y los array de string de mayor tamaño son los que podrian contener delay o bien que una palabra que no pueda ser determinada.
+Antes empezar a recorrer la lista debemos determinar la longitud del mensaje, para este fin debemos encontrar el array de string de menor tamaño, de esta manera obtendremos el tamaño del mensaje y los array de string de mayor tamaño son los que podrian contener delay o bien que una palabra que no pueda ser determinada.
 Una vez que se determina la longitud del mensaje se comienza a iterar la lista desde la última posicion hacia adelante, analizando los valores de cada posicion, y guardando en una lista de posiciones ocupadas aquellas palabras que sean distintas de vacío. Luego cuando la lista de posiciones ocupadas tenga la misma longitud que el array de string de menor tamaño podemos decir entonces que el mensaje emitido fue desifrado. 
 
 ### Solucion Tecnica
 ***
-Tecnicamente debemos diseñar endpoints API REST a través de HTTP POST el cual recibe objetos en formato JSON y tambien HTTP GET para procesar la información recibida y en los casos que sea posible poder determinar la ubicación y el contenido del mensaje enviado por la nave emisora.
+Tecnicamente debemos diseñar endpoints API REST a través de HTTP POST el cual recibe objetos en formato JSON para procesar la información recibida y en los casos que sea posible poder determinar la ubicación y el contenido del mensaje enviado por la nave emisora.
 
 Esta API presenta un servicio /topsecret/ que recibe mensajes de tipo POST con el siguiente formato JSON:
 
@@ -110,6 +110,9 @@ En el caso de que no se pudiera calcular las coordenadas de la nave objetivo o n
   ]
 }
 ```
+
+Además, existe un segundo servicio /topsecret_split/ que acepta POST y recibe información de un satélite a la vez, como se muestra a continuación:
+
 - POST → /topsecret_split/
 https://deployapiapplication.appspot.com/topsecret_split/sato
 
@@ -117,10 +120,10 @@ https://deployapiapplication.appspot.com/topsecret_split/sato
 
 	Respuesta para mensaje y coordenadas correcta cuando la informacion de los tres satelites estan guardadas : 200 OK
 
-	Respuesta cuando almacena temporalmente la informacion obtenida del satelite indicado en el path. (500) Server Error
+	Respuesta cuando almacena temporalmente la informacion obtenida del satelite pasado por parametro en el path. (500) Server Error
+	
 	Respuesta cuando el nombre del satelite es requerida: 400 (Bad request)
 
-Además, existe un segundo servicio /topsecret_split/ que acepta POST y GET y recibe información de un satélite a la vez, como se muestra a continuación:
 
 - POST → /topsecret_split/{kenobi}
 ```javascript
@@ -150,28 +153,7 @@ Además, existe un segundo servicio /topsecret_split/ que acepta POST y GET y re
 }
 
 ```
-
-- GET → /topsecret_split/ 
-https://deployapiapplication.appspot.com/topsecret_split
-	Tipo: GET
-
-	Respuesta para mensaje y coordenadas correctas cuando es posible: 200 (OK)
-
-	Respuesta cuando la informacion de los tres satelites no estan completa. (500) Server Error
-
-Este end-point permite obtener, de ser posible cuando esten cargados los datos de los tres satelites, la ubicación de la nave de carga y el mensaje de auxilio este endpoint realiza la misma logica del endpoint /topsecret/ para calcular la coordenada.
-
-```javascript
-RESPONSE CODE: 200
-{
-  "Position": {
-    "x": -20.548034139288415,
-    "y": -69.26617461833193
-  },
-  "Message": "este es un mensaje "
-}
-```
-En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser completado, el resultado será un código de respuesta 404 al igual que cuando se ejecuta el servicio /topsecret/  .
+En caso de que no se pueda ubicar la nave carguera o el mensaje no pueda ser completado, el resultado será un código de respuesta 404 al igual que cuando se ejecuta el servicio /topsecret/.
 
 
 ### Ejecucion Localmente
